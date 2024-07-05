@@ -1,0 +1,37 @@
+/* container part one start */
+.container1{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    background-color: slateblue;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+@media screen and (max-width:576){
+    .container{
+        flex-direction: column;
+    }
+    
+}
+
+/* container part one end */
+
+/* container part two start */
+.container2{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 10px;
+    margin-top: 15px;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid tomato;
+
+}
+
+
+/* container part two end */
